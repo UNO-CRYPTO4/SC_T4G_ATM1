@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T4G Classroom ATM</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+    <div class="atm-container">
+        <div class="atm-header">
+            <h2>STUDENT BANK ATM</h2>
+            <div class="status-light"></div>
+        </div>
+
+        <!-- The digital monitor screen where JS will print the final output -->
+        <div class="atm-screen">
+            <h3 id="receipt-title">SYSTEM IDLE</h3>
+            <p id="receipt-text">Please respond to the browser prompt boxes to start your transaction...</p>
+        </div>
+    </div>
+
+    <script src="src/atm_prompt.js"></script>
+</body>
+</html>
