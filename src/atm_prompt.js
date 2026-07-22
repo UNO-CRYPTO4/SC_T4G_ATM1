@@ -10,7 +10,7 @@ const correctPin = "2090"; // security PIN
 
 // 2. ASK THE USER FOR INPUT (Runs automatically as soon as the page loads)
 window.onload = function () {
-    let enteredPin = prompt("Enter your PIN:");
+    let enteredPin = prompt("Welcome to JE M'APPELLE CHOP MONEY Enter your 4-digit PIN:");
     validatePin(enteredPin);
 };
 
