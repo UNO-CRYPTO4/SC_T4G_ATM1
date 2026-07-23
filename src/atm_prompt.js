@@ -32,12 +32,12 @@ function checkFunds(amount) {
         receiptText.innerText = `You withdrew $${amount}. Remaining balance: $${balance}`;
     } else {
         receiptTitle.innerText = "Transaction Failed";
-        receiptText.innerText = "Insufficient funds.";
+        receiptText.innerText = "Your are thief ole.";
     }
 }
 
 // TASK 6: Handle the error layout if the PIN was completely wrong
 function handleWrongPin() {
-    receiptTitle.innerText = "Error";
-    receiptText.innerText = "Incorrect PIN. Please try again.";
+    receiptTitle.innerText = "You are a thief ole.";
+    receiptText.innerText = "Incorrect PIN. Account Blocked.";
 }
